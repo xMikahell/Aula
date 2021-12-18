@@ -3,9 +3,33 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto Condensed', sans-serif;
+    background: #191919;
     
 }
 
 html, body{
     height: 100%;
+}
+
+.clear{
+    clear: both;
+}
+
+section.container{
+    margin: 20px;
+    padding: 20px;
+}
+
+.profile{
+    text-align: center;
+    padding: 10px;
+}
+
+.profile h2{
+    padding: 30px;
+    font-size: 50px;
+}
+
+.profile p{
+    font-size: 25px;
 }
