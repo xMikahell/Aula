@@ -11,14 +11,19 @@ html, body{
     height: 100%;
 }
 
+
 .clear{
     clear: both;
 }
 
-section.container{
-    margin: 20px;
-    padding: 20px;
+.container{
+    width: 100%;
+    margin: 10px;
+    padding: 10px;
+
 }
+
+/****header***************/
 
 .profile{
     text-align: center;
@@ -30,6 +35,41 @@ section.container{
     font-size: 50px;
 }
 
-.profile p{
+
+/***********Sobre****************/
+
+.sobre{
+    text-align: center;
+    padding: 10px;
+}
+
+.sobre h2{
+    font-size: 40px ;
+}
+
+.sobre p{
     font-size: 25px;
+}
+
+/**************************/
+
+.contato{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.contato h2{
+    padding: 20px;
+    font-size:35px;
+}
+
+.contato ul{
+    list-style: none;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.contato a{
+    color: #808080;
 }
