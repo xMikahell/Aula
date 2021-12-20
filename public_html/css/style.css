@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto Condensed', sans-serif;
-    background: #191919;
+    background-color: #191919;
     
 }
 
@@ -17,41 +17,59 @@ html, body{
 }
 
 .container{
-    width: 100%;
-    margin: 10px;
-    padding: 10px;
-
+    width:100%;
 }
 
 /****header***************/
 
 .profile{
     text-align: center;
+    margin-top: 30px;
     padding: 10px;
+    margin: 30px;
 }
 
 .profile h2{
-    padding: 30px;
-    font-size: 50px;
+    font-size:50px;
 }
 
-
-/***********Sobre****************/
+/**********sobre*************/
 
 .sobre{
     text-align: center;
-    padding: 10px;
+
 }
 
 .sobre h2{
-    font-size: 40px ;
+    padding: auto;
+    font-size: 40px;
 }
 
 .sobre p{
+    padding: 10px;
+    margin: 30px;
     font-size: 25px;
+    background-color:#808080;
+    
 }
 
-/**************************/
+/*****************projetos***************/
+
+.projetos{
+    text-align: center;
+}
+
+.projetos h2{
+    font-size: 40px;
+}
+
+.projetos p{
+    font-size: 25px;
+    padding: 40px;
+}   
+
+
+/***********Contato***************/
 
 .contato{
     text-align: center;
